@@ -30,7 +30,7 @@ bot = Client("bot",
 
 @bot.on_message(filters.command(["start"]) & filters.user(ADMINS))
 async def account_login(bot: Client, m: Message):
-    editable = await m.reply_text(f"HELLO I AM TXT DOWNLOADER BOT MADE BY Deepak[{m.from_user.first_name}](tg://user?id={m.from_user.id})\nPress /Deepak")
+    editable = await m.reply_text(f"HELLO I AM TXT DOWNLOADER BOT MADE BY Deepak[{m.from_user.first_name}](tg://user?id={m.from_user.id})\nPress /Ak47")
 
 
 @bot.on_message(filters.command("stop") & filters.user(ADMINS))
@@ -39,7 +39,7 @@ async def restart_handler(_, m):
     os.execl(sys.executable, sys.executable, *sys.argv)
 
 
-@bot.on_message(filters.command(["Deepak"]) & filters.user(ADMINS))
+@bot.on_message(filters.command(["Ak47"]) & filters.user(ADMINS))
 async def account_login(bot: Client, m: Message):
     editable = await m.reply_text(f"**Hey [{m.from_user.first_name}](tg://user?id={m.from_user.id})\nSend txt file**")
     input: Message = await bot.listen(editable.chat.id)
@@ -197,7 +197,7 @@ async def account_login(bot: Client, m: Message):
                         time.sleep(e.x)
                         continue
                 else:
-                    prog = await m.reply_text(f"**Downloading 📥:-\n\nVideo Name🚦:- {name}\nQuality 📹 - {raw_text2}\nLink 🔗 :{url}\n\n **bot made by Deepak❤️**")
+                    prog = await m.reply_text(f"**Downloading 📥:-\n\nVideo Name🚦:- {name}\nQuality 📹 - {raw_text2}\nLink 🔗 :{url}\n\n **bot made by Alex❤️**")
                     
                     
                     res_file = await helper.download_video(url, cmd, name)
