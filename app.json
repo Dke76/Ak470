@@ -1,7 +1,7 @@
 
 {
 
-    "name": "PARADISE",
+    "name": "Alex",
 
     "description": "A Modular telegram bot.",
 
@@ -32,7 +32,7 @@
         "BOT_TOKEN": {
 
             "description": "Your Bot token from @Botfather",
-            "value": "6714591135:AAFrWXnq36kWUnliJcl0bJiwfSft_AzM9Ug"
+            "value": "6753131685:AAHxc_ObhqVwkjYodtMn3iGXC_MfHqPnFkU"
 
         },
 
